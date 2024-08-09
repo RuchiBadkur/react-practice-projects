@@ -1,0 +1,45 @@
+
+.wrapper {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    height: 100vh;
+    max-width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(63, 61, 61);
+}
+
+.wrapper button {
+    padding: 10px 20px ;
+    background: white;
+    color: rgb(157, 113, 161);
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    border: 3px solid skyblue;
+    border-radius: 5px;
+}
+
+.accordian {
+    max-width: 500px;
+}
+
+.item {
+    background: linear-gradient(45deg, thistle, skyblue);
+    margin-bottom: 10px;
+    padding: 10px 20px;
+}
+
+.title {
+    color: rgb(22, 22, 22);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.content {
+    color: rgb(53, 55, 55);
+    height: auto;
+}
