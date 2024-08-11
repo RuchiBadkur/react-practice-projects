@@ -6,7 +6,7 @@ const Accordian = () => {
 
     const [selected, setSelected] = useState(null);
     const [enableMultiSelection, setEnableMultiSelection] = useState(false);
-    const [multiple, setMultiple] = useState([]); //store open tabs id
+    const [multiple, setMultiple] = useState([]); //stores open tabs id
 
     function handleSingleSelection(getCurrentId){
 
