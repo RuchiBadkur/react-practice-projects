@@ -1,7 +1,12 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import "./styles.css";
 
+
 const Random = () => {
+
+    useEffect(()=>{
+        hex();
+    }, [])
     const [color, setColor] = useState("colour, colour which colour?");
     // const [typeOfColor, setTypeOfColor] = useState("");
 
