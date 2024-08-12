@@ -1,13 +1,14 @@
 *{
     text-align: center;
+    box-sizing: border-box;
 }
 
 .container {
     height: 100vh;
-    margin-top: 22px;
+
 }
 
-button{
+button, span{
     margin: 20px;
     padding: 10px;
     font-weight: 600;
@@ -17,21 +18,19 @@ button{
 }
 
 .color-box {
-    width: 600px;
     max-width: 80vw;
-    height: 600px;
-    max-height: 80vh;
-    margin: auto;
+    height: 400px;
+    max-height: 40vh;
 }
 
-.color-box span{
+/* span{
     display: inline-block;
     background-color: black;
     color: white;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 200;
     padding: 20px;
-    margin: 45% auto;
+    margin: auto;
     border: 2px solid white;
-}
+} */
 

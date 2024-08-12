@@ -1,0 +1,17 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    padding: 20%;
+}
+
+h1{
+    margin-bottom: 20%;
+}
+
+.active {
+    color: yellow;
+}
+
+.inactive {
+    color: skyblue;
+}

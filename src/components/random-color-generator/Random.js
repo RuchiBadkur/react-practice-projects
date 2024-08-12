@@ -44,11 +44,14 @@ const Random = () => {
             <button onClick={hex} className="hex">Hex</button>
             <button onClick={rgb}  className="rgb">RGB</button>
             
+            <div style={{padding: "20px 0px", margin: "20px"}}>
+                <span style={{fontSize: "25px"}}>{color}</span>
+            </div>
+
             <div 
                 style={{backgroundColor: color}}
                 className="color-box"
             >
-                <span>{color}</span>
             </div>
         </div>
     )

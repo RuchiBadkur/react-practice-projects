@@ -10,14 +10,22 @@ const Accordian = () => {
 
     function handleSingleSelection(getCurrentId){
 
+        // setMultiple([]);
+
         // console.log(selected);
         // console.log("getCurrentId", getCurrentId);
+        document.querySelector("button").style.backgroundColor = "white";
+        document.querySelector("button").style.color = "rgb(157, 113, 161";
 
         setSelected(getCurrentId === selected ? null : getCurrentId);
     }
     // console.log(selected);
 
     function handleMultiSelection(getCurrentId){
+
+
+        document.querySelector("button").style.backgroundColor = "grey";
+        document.querySelector("button").style.color = "skyBlue";
         let copyMultiple = [...multiple];
         //to find double clicked or not in order to close the open tab
         const findIndexOfCurrentId = copyMultiple.indexOf(getCurrentId);

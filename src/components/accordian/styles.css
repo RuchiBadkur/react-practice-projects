@@ -21,6 +21,11 @@
     border-radius: 5px;
 }
 
+button:hover, button:active{
+    background-color: #3f3d3d;
+    color: skyblue;
+}
+
 .accordian {
     max-width: 500px;
 }
