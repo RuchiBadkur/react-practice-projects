@@ -27,7 +27,16 @@
 
  - mouseover offers more flexibility because you can perform complex logic in JavaScript, while :hover is limited to CSS styles.
 
+# 04 image slider
 
+ - https://picsum.photos/v2/list?page=1&limit=5
+
+ # 05 Load More Products
+
+ - https://dummyjson.com/docs/products
+
+ - limit and skip products
+ - 'https://dummyjson.com/products?limit=10&skip=10&select=title,price'
 
 
 

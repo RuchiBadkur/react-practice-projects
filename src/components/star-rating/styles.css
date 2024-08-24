@@ -9,9 +9,11 @@ h1{
 }
 
 .active {
-    color: yellow;
+    /* color: yellow; */
+    background-color: yellow;
 }
 
 .inactive {
-    color: skyblue;
+    /* color: skyblue; */
+    background-color: skyblue;
 }

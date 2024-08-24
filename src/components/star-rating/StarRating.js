@@ -9,7 +9,6 @@ const StarRating = ({noOfStars = 5}) => {
 
     function handleMouseClick( getCurrentIndex){
         setRating(getCurrentIndex);
-        
     }
     
     function handleMouseOver(getCurrentIndex){
@@ -36,7 +35,7 @@ const StarRating = ({noOfStars = 5}) => {
                     size={40}
                     onClick={()=>handleMouseClick(index)}
                     onMouseOver={()=>handleMouseOver(index)}
-                    onMouseLeave={()=>handleMouseLeave(index)}
+                    onMouseLeave={()=>handleMouseLeave()}
                     />
                     /*<span 
                     style={{width: "40px", height: "40px", borderRadius: "50%", backgroundColor: "skyBlue", display: "inline-block", margin: " 1%"}}

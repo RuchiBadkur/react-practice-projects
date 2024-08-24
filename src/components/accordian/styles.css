@@ -21,7 +21,7 @@
     border-radius: 5px;
 }
 
-button:hover, button:active{
+.wrapper button:hover, button:active{
     background-color: #3f3d3d;
     color: skyblue;
 }
