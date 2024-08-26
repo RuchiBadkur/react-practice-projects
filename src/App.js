@@ -10,13 +10,13 @@ import QRCodeGenerator from "./components/qr-code-generator/QRCodeGenerator.js";
 const App = () => {
     return (
         <>
-            {/* <Accordian2 />
+            <Accordian2 />
             <Random2 />
             <StarRating2 noOfStars={5}/>
             <ImageSlider url={'https://picsum.photos/v2/list'} 
             limit={"5"} 
-            page={"1"}/> */}
-            {/* <LoadMoreProducts /> */}
+            page={"1"}/>
+            <LoadMoreProducts />
             <QRCodeGenerator />
         </>
     )
