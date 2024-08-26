@@ -39,6 +39,13 @@
  - 'https://dummyjson.com/products?limit=10&skip=10&select=title,price'
 
 
+ # 06 Qr Code generator
+
+- npm i react-qr-code
+
+
+
+
 
 # push an existing project to github
 - git init

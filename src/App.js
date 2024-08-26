@@ -5,6 +5,7 @@ import Random2 from "./components/random-color-generator/Random2";
 import StarRating2 from "./components/star-rating/StarRating2";
 import ImageSlider from "./components/image-slider/ImageSlider";
 import LoadMoreProducts from "./components/load-more-products/LoadMoreProducts.js";
+import QRCodeGenerator from "./components/qr-code-generator/QRCodeGenerator.js";
 
 const App = () => {
     return (
@@ -15,7 +16,8 @@ const App = () => {
             <ImageSlider url={'https://picsum.photos/v2/list'} 
             limit={"5"} 
             page={"1"}/> */}
-            <LoadMoreProducts />
+            {/* <LoadMoreProducts /> */}
+            <QRCodeGenerator />
         </>
     )
 }
